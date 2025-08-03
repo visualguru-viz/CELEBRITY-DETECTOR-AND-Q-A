@@ -27,7 +27,6 @@ jobs:
       - run:
           name: Build and Push Image
           command: |
-              us-central1-docker.pkg.dev/mlops-new-466416/llmops-repo
               docker build -t us-central1-docker.pkg.dev/$GOOGLE_PROJECT_ID/llmops-repo/llmops-app:latest .
               docker push us-central1-docker.pkg.dev/$GOOGLE_PROJECT_ID/llmops-repo/llmops-app:latest
 
