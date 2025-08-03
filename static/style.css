@@ -1,0 +1,31 @@
+/* Base Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Changed font */
+  background: linear-gradient(to right, #00c6ff, #0072ff); /* Blue gradient background */
+}
+
+/* Buttons */
+button {
+  background-color: #0072ff; /* Blue button */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 0.5rem; /* Rounded corners */
+  padding: 0.5rem 1rem; /* Padding */
+}
+
+button:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}
+
+/* Image hover effect */
+img {
+  border-radius: 0.5rem; /* Rounded corners for images */
+}
+
+/* Answer box */
+.answer-box {
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* Dark blue shades */
+  border: 1px solid #4a90e2; /* Light blue border */
+}
+
+
